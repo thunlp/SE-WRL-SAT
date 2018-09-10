@@ -1,5 +1,5 @@
 # SAT
-This is the revised version of SAT (Sememe Attention over Target) model, which is presented in the ACL 2017 paper **Improved Word Representation Learning with Sememes**. To get more details about the model, please read the [paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/acl2017_sememe.pdf) or access the [original project website](http://https://github.com/thunlp/SE-WRL).
+This is the revised version of SAT (Sememe Attention over Target) model, which is presented in the ACL 2017 paper **Improved Word Representation Learning with Sememes**. To get more details about the model, please read the [paper](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/acl2017_sememe.pdf) or access the [original project website](https://github.com/thunlp/SE-WRL).
 
 ## Updates
 - Datasets：
