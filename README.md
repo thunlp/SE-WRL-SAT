@@ -34,4 +34,13 @@ The results are based on the 21G `Sogou-T` as the training file, which can be do
 |   CBOW    |    56.05    |    62.58    |
 | Skip-gram |    56.72    |    61.99    |
 |   GloVe   |    55.83    |    58.44    |
-|    SAT    |  **61.00**  |  **64.38**  |
+|    SAT    |  **62.11**  |  **62.74**  |
+
+### Word Similarity
+
+
+Model|city-acc|city-rank|family-acc|family-rank|capital-acc|capital-rank|total-acc|total-rank|
+---|---|---|---|---|---|---|---|---|
+Skip-gram|84.14|1.50|86.67|1.21|61.30|8.31|70.70|5.66|
+SAT|98.85|1.01|77.20|5.27|80.06|10.10|82.29|7.52|
+
