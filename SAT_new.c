@@ -173,11 +173,19 @@ void ReadHowNet() {
     if (sense_num > 1) {
       for (i = 0; i < sense_num; ++i) {
         int sememe_cnt = ReadInteger(fin);
+        int sememe_id_tmp;
 
         cnt[i] = (i == 0 ? 0 : cnt[i - 1]) + sememe_cnt; // the accumulated number of sememes
         for (j = (i == 0 ? 0 : cnt[i - 1]); j < cnt[i]; ++j) {
           ReadVocabWord(word, fin);
-          sememe_ids[j] = SearchSememe(word);
+          sememe_id_tmp = SearchSememe(word);
+          if (sememe_id_tmp == -1) { // For unknown sememes
+            cnt[i]--;
+            j--;
+          }
+          else {
+            sememe_ids[j] = sememe_id_tmp;
+          }
         }
       }
     }
