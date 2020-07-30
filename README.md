@@ -25,7 +25,7 @@ bash run_SAT.sh
 To change training file, you can just switch the `data/train_sample.txt` in `run_SAT.sh` to your training file name.
 ## New Results
 
-The results are based on the 21G `Sogou-T` as the training file, which can be downloaded from [here](https://pan.baidu.com/s/1kXgkyJ9) (password: f2ul). And the hyper-parameters for all the models are the same as those in `run_SAT.sh`. You can download the trained word embeddings from [here](https://cloud.tsinghua.edu.cn/d/76ab4a71efa541bd8eb3/).
+The results are based on the 21G `Sogou-T` as the training file, which can be downloaded from [here](https://pan.baidu.com/s/1kXgkyJ9) (password: f2ul). And the hyper-parameters for all the models are the same as those in `run_SAT.sh`. You can download the trained word embeddings from [here](https://cloud.tsinghua.edu.cn/d/351dc8b436bb4a5dba34/).
 
 ### Word Similarity
 
